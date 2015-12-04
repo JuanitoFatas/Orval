@@ -6,7 +6,8 @@ module Orval
   class CLI < Thor
     desc "version", "First made in 1931"
     def version
-      say Orval::VERSION
+      say Orval::ASCII
+      say Orval::VERSION.rjust(77)
     end
     map %w(-v --version) => :version
 
