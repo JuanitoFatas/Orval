@@ -1,3 +1,3 @@
 module Orval
-  VERSION = "1931"
+  VERSION = "1932"
 end
